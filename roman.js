@@ -59,10 +59,10 @@ test('1977 should return MCMLXXVII', function(){
 		.should.equal('MCMLXXVII');
 });
 
-test('2290 should return MMCCXC', function(){
+test('3999 should return MMMCMXCIX', function(){
 	new RomanNumeralGenerator(NUMERALS)
-		.generate(2290)
-		.should.equal('MMCCXC');
+		.generate(3999)
+		.should.equal('MMMCMXCIX');
 });
 
 var RomanNumeralGenerator = function(numerals){
