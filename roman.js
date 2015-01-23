@@ -53,12 +53,6 @@ test('1977 should return MCMLXXVII', function(){
 		.should.equal('MCMLXXVII');
 });
 
-test('1977 should return MCMLXXVII', function(){
-	new RomanNumeralGenerator(NUMERALS)
-		.generate(1977)
-		.should.equal('MCMLXXVII');
-});
-
 test('3999 should return MMMCMXCIX', function(){
 	new RomanNumeralGenerator(NUMERALS)
 		.generate(3999)
