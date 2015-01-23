@@ -31,8 +31,8 @@ test('2 should return II', function(){
 
 test('3 should return III', function(){
 	new RomanNumeralGenerator(NUMERALS)
-		.generate(2)
-		.should.equal('II');
+		.generate(3)
+		.should.equal('III');
 });
 
 test('9 should return IX', function(){
