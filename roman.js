@@ -41,6 +41,12 @@ test('9 should return IX', function(){
 		.should.equal('IX');
 });
 
+test('20 should return XX', function(){
+	new RomanNumeralGenerator(NUMERALS)
+		.generate(20)
+		.should.equal('XX');
+});
+
 test('66 should return LXVI', function(){
 	new RomanNumeralGenerator(NUMERALS)
 		.generate(66)
